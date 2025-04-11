@@ -1,0 +1,12 @@
+.header-content{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-header img{
+    height: 200px;
+    width: 200px;
+}
