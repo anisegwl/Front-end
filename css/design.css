@@ -1,12 +1,40 @@
-.header-content{
-    list-style: none;
+.top-navbar{
+    background-color: black;
+    color: white; 
     display: flex;
-    gap: 20px;
-    align-items: center;
     justify-content: center;
+    font-size: 15px;
+    align-items: center;
 }
 
-.top-header img{
-    height: 200px;
-    width: 200px;
+.navbar-ul{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    padding: 10px 0px 0px 0px;
 }
+
+.about-us{
+    background-image: url(../Assets/dozer-aboutus.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about-us h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.about-us p{
+    margin-top: 20px;
+    font-size: 17px ;
+    
+}
+
