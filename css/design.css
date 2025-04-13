@@ -1,40 +1,72 @@
-.top-navbar{
-    background-color: black;
-    color: white; 
-    display: flex;
-    justify-content: center;
-    font-size: 15px;
-    align-items: center;
+.top-navbar {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  align-items: center;
 }
 
-.navbar-ul{
-    list-style-type: none;
-    display: flex;
-    gap: 30px;
-    padding: 10px 0px 0px 0px;
+.navbar-ul {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+  padding: 10px 0px 0px 0px;
 }
 
-.about-us{
+.about-us {
+  background-image: url(../Assets/dozer-aboutus.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-us h1 {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.about-us p {
+  margin-top: 20px;
+  font-size: 17px;
+}
+
+
+.custom-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+}
+
+.icon-body {
+  font-size: 2rem;
+  color: #7f4b41;
+  margin-bottom: 20px;
+}
+
+.card-content h5 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.card-content p {
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.about-section ::before{
+    background-color: black !important;
+}
+
+.about-section ::after{
     background-image: url(../Assets/dozer-aboutus.avif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 600px;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
 }
-
-.about-us h1{
-    font-weight: bold;
-    font-size: 50px;
-}
-
-.about-us p{
-    margin-top: 20px;
-    font-size: 17px ;
-    
-}
-
