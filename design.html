@@ -3,29 +3,37 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>KMD Demolition & Asbestos Removal</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./css/design.css" />
-
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
+    <link rel="stylesheet" href="./css/design.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
   </head>
   <body>
     <header class="top-header">
       <div
-        class="container d-flex align-items-center justify-content-between py-2"
+        class="container d-flex align-items-center justify-content-between py-2 flex-wrap"
       >
         <!-- Logo -->
         <div class="logo-box d-flex align-items-center">
           <img
-            src="/Assets/About.me_new_Logo_2015.png"
+            src="./Assets/About.me_new_Logo_2015.png"
             alt="Logo"
             class="logo-img"
           />
@@ -53,21 +61,27 @@
         </div>
       </div>
     </header>
-    <!-- Below Navbar -->
+
+    <!-- Navigation -->
     <div class="top-navbar">
-      <ul class="navbar-ul">
-        <li>Home</li>
-        <li>|</li>
-        <li>About Us</li>
-        <li>|</li>
-        <li>Services</li>
-        <li>|</li>
-        <li>Gallery</li>
-        <li>|</li>
-        <li>Testimonials</li>
-        <li>|</li>
-        <li>Contact Us</li>
-      </ul>
+      <div class="container d-flex justify-content-between align-items-center">
+        <button class="hamburger" id="hamburger-menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <ul class="navbar-ul" id="nav-menu">
+          <li>Home</li>
+          <li>|</li>
+          <li>About Us</li>
+          <li>|</li>
+          <li>Services</li>
+          <li>|</li>
+          <li>Gallery</li>
+          <li>|</li>
+          <li>Testimonials</li>
+          <li>|</li>
+          <li>Contact Us</li>
+        </ul>
+      </div>
     </div>
 
     <!-- About us section -->
@@ -80,7 +94,7 @@
               <b
                 ><p>
                   With over 5 years of experience our team is qualified to
-                  take<br />
+                  take<br class="d-none d-md-block" />
                   on projects of all sizes
                 </p></b
               >
@@ -93,7 +107,7 @@
     <section class="card-section py-5">
       <div class="container">
         <div class="row g-4">
-          <div class="col-md-4">
+          <div class="col-md-6 col-lg-4">
             <div class="custom-card">
               <div class="icon-body">
                 <i class="fa-solid fa-building-circle-exclamation"></i>
@@ -108,8 +122,8 @@
             </div>
           </div>
 
-          <div class="col-md-4">
-            <div class="custom-card animate">
+          <div class="col-md-6 col-lg-4">
+            <div class="custom-card">
               <div class="icon-body">
                 <i class="fa-solid fa-biohazard"></i>
               </div>
@@ -117,14 +131,14 @@
                 <h5>Asbestos Removal</h5>
                 <p>
                   If your home has asbestos, it can be a serious threat. Let us
-                  protect your family’s health.
+                  protect your family's health.
                 </p>
               </div>
             </div>
           </div>
 
-          <div class="col-md-4">
-            <div class="custom-card animate">
+          <div class="col-md-6 col-lg-4">
+            <div class="custom-card">
               <div class="icon-body">
                 <i class="fa-solid fa-scissors"></i>
               </div>
@@ -138,8 +152,8 @@
             </div>
           </div>
 
-          <div class="col-md-4">
-            <div class="custom-card animate">
+          <div class="col-md-6 col-lg-4">
+            <div class="custom-card">
               <div class="icon-body">
                 <i class="fa-solid fa-truck-front"></i>
               </div>
@@ -153,8 +167,8 @@
             </div>
           </div>
 
-          <div class="col-md-4">
-            <div class="custom-card animate">
+          <div class="col-md-6 col-lg-4">
+            <div class="custom-card">
               <div class="icon-body">
                 <i class="fa-solid fa-trash"></i>
               </div>
@@ -168,8 +182,8 @@
             </div>
           </div>
 
-          <div class="col-md-4">
-            <div class="custom-card animate">
+          <div class="col-md-6 col-lg-4">
+            <div class="custom-card">
               <div class="icon-body">
                 <i class="fa-solid fa-scale-balanced"></i>
               </div>
@@ -189,20 +203,22 @@
     <section class="about-section">
       <div class="about-beforeafter">
         <div class="container about-container">
-        <h3>About Us</h3>
-        <p>
-          We are dedicated to meeting the needs of our clients by providing superior services and finalising all projects on time and within budget. 
-          KMD Demolition & Asbestos Removal are the go-to people when experience counts and you need trusted professional advice.
-        </p>
-        <p>
-          KMD Demolition & Asbestos Removal has a team dedicated to the safe removal and replacement of roofs containing asbestos. 
-          We use environmentally safe disposal methods for hazardous materials.
-        </p>
+          <h3>About Us</h3>
+          <p>
+            We are dedicated to meeting the needs of our clients by providing
+            superior services and finalising all projects on time and within
+            budget. KMD Demolition & Asbestos Removal are the go-to people when
+            experience counts and you need trusted professional advice.
+          </p>
+          <p>
+            KMD Demolition & Asbestos Removal has a team dedicated to the safe
+            removal and replacement of roofs containing asbestos. We use
+            environmentally safe disposal methods for hazardous materials.
+          </p>
+        </div>
       </div>
-    </div>
     </section>
-    
-    
+
     <section class="our-gallery py-5">
       <div class="container">
         <div class="text-center mb-4">
@@ -286,48 +302,80 @@
     </section>
 
     <section class="testimonial-section">
-        <div class="testimonial">
-          <h3>Testimonials</h3>
-          <p>
-            I just wanted to let you know that we think you have done a fantastic job,
-            It looks great. You are very professional in your work and very affordable too,
-            which is a bonus.
-          </p>
-          <span>James Wilson</span>
-        </div>
+      <div class="testimonial">
+        <h3>Testimonials</h3>
+        <p>
+          I just wanted to let you know that we think you have done a fantastic
+          job, It looks great. You are very professional in your work and very
+          affordable too, which is a bonus.
+        </p>
+        <span>James Wilson</span>
+      </div>
     </section>
-    
-    
+
     <section class="form-section">
       <div class="container">
         <center><h1 class="form-title">Send Us A Message</h1></center>
         <div class="row align-items-center">
           <div class="col-md-6 mb-4 mb-md-0">
-            <img src="./Assets/demolition.webp" alt="Demolition" class="img-fluid image-form">
+            <img
+              src="./Assets/demolition.webp"
+              alt="Demolition"
+              class="img-fluid image-form"
+            />
           </div>
           <div class="col-md-6">
-            <form >
+            <form>
               <div class="row">
                 <div class="col-md-6">
-                  <input type="text" class="form-control" placeholder="First Name" required>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="First Name"
+                    required
+                  />
                 </div>
                 <div class="col-md-6">
-                  <input type="text" class="form-control" placeholder="Last Name" required>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Last Name"
+                    required
+                  />
                 </div>
               </div>
               <div class="row">
                 <div class="col-md-6">
-                  <input type="text" class="form-control" placeholder="Phone Number" required>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Phone Number"
+                    required
+                  />
                 </div>
                 <div class="col-md-6">
-                  <input type="email" class="form-control" placeholder="Email Address" required>
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Email Address"
+                    required
+                  />
                 </div>
               </div>
-              <textarea class="form-control" rows="4" placeholder="Write your message here..." required></textarea>
-              
+              <textarea
+                class="form-control"
+                rows="4"
+                placeholder="Write your message here..."
+                required
+              ></textarea>
+
               <h6 class="mt-3 mb-3">Please prove you're human:</h6>
-              <img src="./Assets/fake-captcha.png" alt="Captcha Example" class="captcha-img ">
-              
+              <img
+                src="./Assets/fake-captcha.png"
+                alt="Captcha Example"
+                class="captcha-img"
+              />
+
               <button type="submit" class="btn btn-custom">Send</button>
             </form>
           </div>
@@ -339,7 +387,7 @@
       <div class="container">
         <div class="row">
           <!-- Contact Us -->
-          <div class="col-md-4">
+          <div class="col-md-4 mb-4 mb-md-0">
             <h5 class="footer-heading">Contact Us</h5>
             <ul class="footer-ul">
               <li>
@@ -360,7 +408,7 @@
           </div>
 
           <!-- Quick Links -->
-          <div class="col-md-4">
+          <div class="col-md-4 mb-4 mb-md-0">
             <h5 class="footer-heading">Quick Links</h5>
             <ul class="footer-ul">
               <li>Home</li>
@@ -388,7 +436,7 @@
 
     <div class="lower-footer">
       <p>
-        Copyright &copy 2023 - KMD Demolitions & Asbestos Removal. All RIghts
+        Copyright &copy; 2023 - KMD Demolitions & Asbestos Removal. All Rights
         Reserved. Designed by Anise Gnawali
       </p>
     </div>
@@ -403,6 +451,6 @@
       integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
       crossorigin="anonymous"
     ></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>
-       

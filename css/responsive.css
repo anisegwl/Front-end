@@ -1,0 +1,172 @@
+@media (max-width: 1200px) {
+    .testimonial {
+      padding: 60px 40px;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .contact-info {
+      display: none !important;
+    }
+    
+    .about-us {
+      min-height: 350px;
+    }
+    
+    .about-us h1 {
+      font-size: 40px;
+    }
+    
+    .about-beforeafter {
+      width: 100%;
+      padding: 40px;
+    }
+    
+    .about-section::before {
+      width: 100%;
+    }
+    
+    .about-section::after {
+      display: none;
+    }
+    
+    .testimonial {
+      padding: 50px 40px;
+    }
+    
+    .form-section {
+      padding: 60px 0;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .top-header .container {
+      padding: 10px 20px;
+    }
+    
+    .logo-box {
+      padding: 10px 0;
+    }
+    
+    .logo-img {
+      height: 40px;
+    }
+    
+    .hamburger {
+      display: block;
+    }
+    
+    .top-navbar {
+      padding: 0;
+    }
+    
+    .navbar-ul {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background-color: black;
+      z-index: 10;
+      padding: 15px 0;
+      gap: 0;
+      text-align: center;
+    }
+    
+    .navbar-ul.show {
+      display: flex;
+    }
+    
+    .navbar-ul li:nth-child(even) {
+      display: none;
+    }
+    
+    .navbar-ul li {
+      padding: 12px 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    
+    .navbar-ul li:last-child {
+      border-bottom: none;
+    }
+    
+    .about-us {
+      min-height: 300px;
+      padding: 50px 0;
+      text-align: center;
+    }
+    
+    .about-us h1 {
+      font-size: 32px;
+    }
+    
+    .about-us p {
+      font-size: 15px;
+    }
+    
+    .custom-card {
+      padding: 20px;
+    }
+    
+    .gallery-wrapper {
+      height: 150px;
+    }
+    
+    .image-form {
+      height: auto;
+      margin-bottom: 30px;
+    }
+    
+    form {
+      height: auto;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .top-header .container {
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+    }
+    
+    .quote-btn {
+      width: 100%;
+    }
+    
+    .header-button {
+      width: 100%;
+    }
+    
+    .about-us {
+      min-height: 250px;
+    }
+    
+    .about-us h1 {
+      font-size: 28px;
+    }
+    
+    .about-beforeafter {
+      padding: 30px 20px;
+    }
+    
+    .testimonial {
+      padding: 40px 20px;
+    }
+    
+    .form-control {
+      height: 50px;
+    }
+    
+    .footer-heading {
+      margin-top: 20px;
+    }
+    
+    .btn-custom {
+      padding: 12px;
+    }
+    
+    .form-title {
+      font-size: 24px;
+    }
+  }
